@@ -1,1 +1,98 @@
-
+<!DOCTYPE html><html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Health & Fitness</title>
+<meta name="description" content="স্বাস্থ্য, ফিটনেস, পুষ্টি ও সুস্থ জীবনযাপনের সহজ বাংলা ও ইংরেজি গাইড।">
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f4faf6;color:#24352b;line-height:1.7}
+header{background:#087f5b;color:white;text-align:center;padding:30px 15px}
+header h1{margin:0;font-size:30px}
+nav{background:#056344;text-align:center;padding:12px 5px}
+nav a{color:white;text-decoration:none;margin:7px;display:inline-block}
+main{max-width:900px;margin:auto;padding:15px}
+section{background:white;margin:18px 0;padding:22px;border-radius:12px;box-shadow:0 2px 9px #00000010}
+h2{color:#087f5b}
+.card{background:#edf8f1;padding:14px;margin:10px 0;border-radius:8px}
+input,button{padding:12px;font-size:16px;border-radius:6px}
+input{width:100%;max-width:300px;border:1px solid #aaa}
+button{background:#087f5b;color:white;border:0;cursor:pointer}
+footer{background:#056344;color:white;text-align:center;padding:20px}
+.small{font-size:14px}
+</style>
+</head>
+<body>
+<header>
+<h1>🌿 Smart Health & Fitness</h1>
+<p>স্বাস্থ্যকর জীবন, সুস্থ ভবিষ্যৎ | Healthy Life, Better Future</p>
+</header><nav>
+<a href="#health">স্বাস্থ্য | Health</a>
+<a href="#fitness">ফিটনেস | Fitness</a>
+<a href="#nutrition">পুষ্টি | Nutrition</a>
+<a href="#bmi">BMI Calculator</a>
+<a href="#about">আমাদের সম্পর্কে | About</a>
+</nav><main>
+<section id="health">
+<h2>🩺 স্বাস্থ্য | Health</h2>
+<div class="card">
+<h3>প্রতিদিন সুস্থ থাকার ৫টি অভ্যাস</h3>
+<p>১. পর্যাপ্ত পানি পান করুন। ২. সুষম খাবার খান। ৩. নিয়মিত ঘুমান। ৪. পরিষ্কার-পরিচ্ছন্ন থাকুন। ৫. অসুস্থ হলে চিকিৎসকের পরামর্শ নিন।</p>
+<p class="small">Build healthy habits: drink water, eat balanced meals, sleep well, maintain hygiene, and seek medical advice when needed.</p>
+</div>
+</section><section id="fitness">
+<h2>🏃 ফিটনেস | Fitness</h2>
+<p>প্রতিদিন নিজের সামর্থ্য অনুযায়ী হাঁটুন বা হালকা ব্যায়াম করুন। ধীরে শুরু করুন এবং শরীরের সংকেত বুঝুন।</p>
+<p>Walk or exercise according to your ability. Start slowly and listen to your body.</p>
+</section><section id="nutrition">
+<h2>🥗 পুষ্টি | Nutrition</h2>
+<p>খাবারে শাকসবজি, ফল, ডাল, প্রোটিন এবং পরিমিত শস্য রাখুন। অতিরিক্ত লবণ ও চিনিযুক্ত খাবার সীমিত করুন।</p>
+<p>Include vegetables, fruits, pulses, protein, and balanced portions of grains in your diet.</p>
+</section><section>
+<h2>😴 সুস্থ জীবনযাপন | Wellness</h2>
+<p>নিয়মিত ঘুম, বিশ্রাম, শরীরচর্চা এবং পরিবার-বন্ধুদের সঙ্গে সময় কাটানো সুস্থ জীবনের অংশ।</p>
+<p>Sleep, rest, physical activity, and social connection all support wellbeing.</p>
+</section><section>
+<h2>⚖️ ওজন ব্যবস্থাপনা | Weight Management</h2>
+<p>স্বাস্থ্যকর ওজন বজায় রাখতে সুষম খাবার, নিয়মিত চলাফেরা এবং পর্যাপ্ত ঘুমের অভ্যাস গড়ুন। দ্রুত ওজন কমানোর ঝুঁকিপূর্ণ পদ্ধতি এড়িয়ে চলুন।</p>
+</section><section id="bmi">
+<h2>📊 BMI Calculator</h2>
+<p>আপনার ওজন (কেজি) ও উচ্চতা (মিটারে) লিখুন।</p>
+<input id="weight" type="number" placeholder="Weight in kg" min="1">
+<br><br>
+<input id="height" type="number" placeholder="Height in meters, e.g. 1.65" min="0.1" step="0.01">
+<br><br>
+<button onclick="calculateBMI()">Calculate BMI</button>
+<p id="result"></p>
+<p class="small">BMI is a screening measure, not a diagnosis. Adult BMI categories are not suitable for every age or situation.</p>
+</section><section id="about">
+<h2>ℹ️ আমাদের সম্পর্কে | About Us</h2>
+<p>Smart Health & Fitness একটি তথ্যভিত্তিক ওয়েবসাইট। এখানে স্বাস্থ্য, ফিটনেস, পুষ্টি এবং সুস্থ জীবনযাপন সম্পর্কে সাধারণ তথ্য দেওয়া হয়।</p>
+<p>Smart Health & Fitness shares general information about health, fitness, nutrition, and wellbeing.</p>
+</section><section>
+<h2>⚠️ স্বাস্থ্যসংক্রান্ত সতর্কতা | Disclaimer</h2>
+<p>এই ওয়েবসাইটের তথ্য চিকিৎসকের পরামর্শের বিকল্প নয়। ব্যক্তিগত স্বাস্থ্যসমস্যার জন্য যোগ্য চিকিৎসকের পরামর্শ নিন।</p>
+<p class="small">Information on this website is for educational purposes only and is not a substitute for professional medical advice.</p>
+</section>
+</main><footer>
+<p>© 2026 Smart Health & Fitness</p>
+<p>Healthy Habits • Better Living</p>
+</footer><script>
+function calculateBMI(){
+ const w=parseFloat(document.getElementById('weight').value);
+ const h=parseFloat(document.getElementById('height').value);
+ const result=document.getElementById('result');
+ if(!w||!h||w<=0||h<=0){
+   result.textContent='Please enter a valid weight and height.';
+   return;
+ }
+ const bmi=w/(h*h);
+ let category='';
+ if(bmi<18.5) category='Underweight';
+ else if(bmi<25) category='Healthy range';
+ else if(bmi<30) category='Overweight';
+ else category='Obesity range';
+ result.textContent='Your BMI: '+bmi.toFixed(1)+' — '+category;
+}
+</script></body>
+</html>
